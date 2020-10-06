@@ -1,0 +1,383 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+ /* background-color: #6495ED;*/
+}
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.img {
+  /* The image used */
+  background-image: url("tech.jpg");
+
+  min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.img2 {
+  /* The image used */
+  background-image: url("tech3.jpg");
+
+  min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.img3 {
+  /* The image used */
+  background-image: url("tech4.jpg");
+
+  min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.img4 {
+  /* The image used */
+  background-image: url("tech5.jpg");
+
+  min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+/* Position the navbar container inside the image */
+/*.container {
+  /*position: absolute;
+  margin: -8px;
+  width: auto;
+}*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #191970;*/
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #6495ED;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+/* Add a card effect for articles */
+.block {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 138px;
+  margin-right: 20px;
+  width: 75%;
+}
+.container {
+  width: 100%;
+  background-color: #ddd;
+  margin: auto;
+  text-align: center;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+    width: 98%; 
+    background-color: #6495ED;
+}
+.css {
+    width: 98%; 
+    background-color: #6495ED;
+}
+.js {
+    width: 88%; 
+    background-color: #6495ED;
+}
+.php {
+    width: 85%; 
+    background-color: #6495ED;
+}
+.sql {
+    width: 85%; 
+    background-color: #6495ED;
+}
+.java {
+    width: 88%; 
+    background-color: #6495ED;
+}
+.python {
+    width: 83%; 
+    background-color: #6495ED;
+}
+.scratch {
+    width: 95%; 
+    background-color: #6495ED;
+}
+.assemblyx32 {
+    width: 82%; 
+    background-color: #6495ED;
+}
+.assemblyx86 {
+    width: 77%; 
+    background-color: #6495ED;
+}
+.kotlin {
+    width: 80%; 
+    background-color: #6495ED;
+}
+.haskell {
+    width: 70%; 
+    background-color: #6495ED;
+}
+.r {
+    width: 98%; 
+    background-color: #6495ED;
+}
+.scheme {
+    width: 75%; 
+    background-color: #6495ED;
+}
+.node {
+    width: 95%; 
+    background-color: #6495ED;
+}
+.angular {
+    width: 95%; 
+    background-color: #6495ED;
+}
+.linux {
+    width: 75%; 
+    background-color: #6495ED;
+}
+.typescript {
+    width: 78%; 
+    background-color: #6495ED;
+}
+.unity {
+    width: 91.5%; 
+    background-color: #6495ED;
+}
+.jvm {
+    width: 81%; 
+    background-color: #6495ED;
+}
+.aws {
+    width: 89%; 
+    background-color: #6495ED;
+}
+.net {
+    width: 92%; 
+    background-color: #6495ED;
+}
+.jquery {
+    width: 95%; 
+    background-color: #6495ED;
+}
+.sqlserver {
+    width: 88%; 
+    background-color: #6495ED;
+}
+.ruby {
+    width: 71%; 
+    background-color: #6495ED;
+}
+.swift {
+    width: 68%; 
+    background-color: #6495ED;
+}
+.scala {
+    width: 65%; 
+    background-color: #6495ED;
+}
+.go {
+    width: 62%; 
+    background-color: #6495ED;
+}
+.elm {
+    width: 73%; 
+    background-color: #6495ED;
+}
+.rust {
+    width: 54%; 
+    background-color: #6495ED;
+}
+
+/* Create four unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 30%;
+  padding-left: 0px;
+  text-align: center;
+}
+/* Center column */
+.centercolumn {   
+  float: left;
+  width: 30%;
+  padding-left: 40px;
+  text-align: center;
+}
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 30.5%;
+  padding-left: 40px;
+  text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.block2 {
+  background-color: #6495ED;
+  padding: 20px;
+  width: 100%;
+}
+/* Create four unequal columns that floats next to each other */
+/* Left column */
+.leftColumn {   
+  float: left;
+  width: 25%;
+  padding-left: 0px;
+}
+.leftColumn2 {   
+  float: left;
+  width: 25%;
+  padding-right: 0px;
+}
+/* Right column */
+.rightColumn {
+  float: left;
+  width: 25%;
+  padding-left: 0px;
+}
+/* Right column */
+.rightColumn2 {
+  float: left;
+  width: 25%;
+  padding-right: 0px;
+}
+/* Add a card effect for articles */
+/*.block3 {
+  background-color: #ADD8E6;
+  padding: 40px;
+  /*padding-bottom: 50%;*/
+  /*margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}*/
+  
+.card2 {
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  transition: 0.5s;
+  width: 85%;
+  border-radius: 25px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.imgCard {
+  border-radius: 25px 25px 0 0;
+}
+
+.container2 {
+  padding: 20px 20px;
+}  
+  
+/* Add a card effect for articles */
+.hoverBlock {
+  background-color: #ADD8E6;
+  padding: 40px;
+  /*padding-bottom: 50%;*/
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.fakeBackground{
+    background-color: #E0FFFF;
+    width: 200px;
+    height: 200px;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+  background-color:#000000;
+  padding: 20px;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
