@@ -11,7 +11,7 @@ body {
 }
 .img {
   /* The image used */
-  background-image: url("tech.jpg");
+  background-image: url("image/tech.jpg");
 
   min-height: 500px;
 
@@ -25,7 +25,7 @@ body {
 }
 .img2 {
   /* The image used */
-  background-image: url("tech3.jpg");
+  background-image: url("image/tech3.jpg");
 
   min-height: 500px;
 
@@ -39,7 +39,7 @@ body {
 }
 .img3 {
   /* The image used */
-  background-image: url("tech4.jpg");
+  background-image: url("image/tech4.jpg");
 
   min-height: 500px;
 
@@ -53,7 +53,7 @@ body {
 }
 .img4 {
   /* The image used */
-  background-image: url("tech5.jpg");
+  background-image: url("image/tech5.jpg");
 
   min-height: 500px;
 
