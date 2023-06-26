@@ -3,296 +3,291 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Abril+Fatface">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="index.css">
         <script src="index.js"></script>
     </head>
-    
-     <!--Background image for top navigation-->
-     <div class="img">
-     <div class="centered">Welcome!</div>    
-     <div class="contain">
-     <!--Navigation-->
-     <div class="topnav">
+    <body>
+        <div class="img">
+    <!--Navigation-->
+     <div class="topnav" id="myTopnav">
        <ul>
          <li><a href="#home">Home</a></li>
          <li><a href="#about">About Me</a></li>
          <li><a href="#skills">Skills</a></li>
          <li><a href="#portfolio">Portfolio</a></li>
          <li><a href="#resume">Resume</a></li>
-         <li style="float:right"><a href="#contact">Contact</a></li>
-      </ul>
+         <li style="float:right;"><a href="#contact">Contact</a></li>
+         <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+           <i class="fa fa-bars"></i></a></li>
+       </ul>
+     </div>
+        
+    <!--Container for Header-->
+    <div class="container_for_header">
+     <div class="centered_header">Welcome!</div>    
+     <div class="centered_header_caption">My name is Blank Blank</div> 
     </div>
     </div>
-    </div>
+
+    <br>
      <!--First Block-->
      <div class="block" id="about">
      <h2>About me</h2>
        <p class="center"><em>Hi there!</em></p>
        <p class="center">
-          I am a software developer as well as a Graphic Designer in New York City.<br> 
-          I received a B.S. in Computer Science and Multimedia Computing at City University of New York Brooklyn College.<br><br>
-          I decided to go into computer science my second year of college because I wanted a bit of a challenge away from my artistic background.<br><br>
+          I am a Software Developer, Web Developer, and a Graphic Designer in New York City.<br> 
+          I received a B.S. in Computer Science and Multimedia Computing<br>
+          at City University of New York Brooklyn College.<br>
+          I decided to go into computer science my second year of college because<br>
+          I wanted a bit of a challenge away from my artistic background.<br><br>
        </p>
      </div>
-     <!--The Divider-->
-     <hr style="height:5px;border-width:0;color:black;background-color:black;width:75%">
-     <!--The Image-->
-     <div class="img3">
-     </div>
-     <!--The Divider-->
-    <hr style="height:5px;border-width:0;color:black;background-color:black;width:75%"> 
-     <!--Second Block-->
-     <div class="block" id="skills">
-     <h2>My Skills</h2>
-     <h3>Software Developer</h3>
-       <p class="center">
-           I have had experience in different languages, frameworks, database systems, etc.<br>
+     
+     <!--Space between the divs-->
+      <br>
+      
+       <!--Carousel-->
+    <div class="container_Carousel">
+      <div class="carousel">
+        <div class="carousel__face"><span>Hey there below</span></div>
+        <div class="carousel__face"><span>are some of </span></div>
+        <div class="carousel__face"><span>my skills.</span></div>
+        <div class="carousel__face"><span>If you stayed</span></div>
+        <div class="carousel__face"><span>looking at the </span></div>
+        <div class="carousel__face"><span>rest of these</span></div>
+        <div class="carousel__face"><span>images</span></div>
+        <div class="carousel__face"><span>enjoy.</span></div>
+        <div class="carousel__face"><span>:^)</span></div>
+      </div>
+    </div>
+       
+     <!--Space between the divs-->
+      <br>
+      
+      <!--Second Block--> 
+    <div class="row">
+      <div class="column">
+          <h2>Software Developer</h2><br><br>
+          <p class="center">I have had experience in different languages, frameworks, database systems, etc.<br>
            In terms of programming languages, I primarily work in Java but have used other languages such as C++,Javascript,Python etc.<br>
            I'm dedicated to growing as an engineer and as an individual.<br>
-           I thrive in environments that allow me to develop my skillset on a continuous basis.<br><br><br>
+           I thrive in environments that allow me to develop my skill set on a continuous basis.</p>
+      </div>
+      <div class="column">
+         <h2>Web Developer</h2><br><br>
+           <p class="center">I have knowledge of Web Development, Database, and servers. Some skills include HTML/CSS, Coding, Frameworks, Version Control,<br>
+         Responsive Design, Testing/Debugging, Browser Tools, Building along with Automation Tools, and Command Line.<br><br><br>
        </p>
-     <h3>Graphic Design</h3>
-     <p class="center">
-           Using my art background I can create new and innovative designs.<br>
+      </div>
+      <div class="column">
+          <h2>Graphic Design</h2><br><br>
+            <p class="center">Using my art background I can create new and innovative designs.<br>
            I am up to date with the latest trends in graphic design and I have a very modern feel to my designs.<br>
        </p>
-     </div>
-     <!--The Divider-->
-     <hr style="height:5px;border-width:0;color:black;background-color:black;width:75%">
-   <div class="block" id="skills">
-     <h2>My Skill break down</h2>
-     <p>HTML</p>
-      <div class="container">
-        <div class="skills html">98%</div>
       </div>
-     <p>CSS</p>
-      <div class="container">
-       <div class="skills css">98%</div>
-      </div>
-     <p>JavaScript</p>
-      <div class="container">
-       <div class="skills js">88%</div>
-      </div>
-     <p>PHP</p>
-      <div class="container">
-       <div class="skills php">85%</div>
-      </div>
-     <p>SQL</p>
-       <div class="container">
-        <div class="skills sql">85%</div>
-       </div>
-     <p>Java</p>
-       <div class="container">
-        <div class="skills java">88%</div>
-       </div>
-     <p>Python</p>
-       <div class="container">
-        <div class="skills python">83%</div>
-       </div>
-     <p>Scratch</p>
-       <div class="container">
-        <div class="skills scratch">95%</div>
-       </div>
-     <p>Assembly Language x32</p>
-       <div class="container">
-        <div class="skills assemblyx32">82%</div>
-       </div>  
-     <p>Assembly Language x86</p>
-       <div class="container">
-        <div class="skills assemblyx86">77%</div>
-       </div> 
-     <p>Kotlin</p>
-       <div class="container">
-        <div class="skills kotlin">80%</div>
-       </div>
-     <p>Haskell</p>
-       <div class="container">
-        <div class="skills haskell">70%</div>
-       </div>
-     <p>R</p>
-       <div class="container">
-        <div class="skills r">98%</div>
-       </div>
-     <p>Scheme</p>
-       <div class="container">
-        <div class="skills scheme">75%</div>
-       </div>
-     <p>Node.js</p>
-       <div class="container">
-        <div class="skills node">95%</div>
-       </div>
-     <p>Angular.js</p>
-       <div class="container">
-        <div class="skills angular">95%</div>
-       </div>
-     <p>Linux</p>
-       <div class="container">
-        <div class="skills linux">75%</div>
-       </div>
-     <p>TypeScript</p>
-       <div class="container">
-        <div class="skills typescript">78%</div>
-       </div>
-     <p>Unity</p>
-       <div class="container">
-        <div class="skills unity">91.5%</div>
-       </div>
-     <p>Java Virtual Machine</p>
-       <div class="container">
-        <div class="skills jvm">81%</div>
-       </div>
-     <p>Amazon Web Services</p>
-       <div class="container">
-        <div class="skills aws">89%</div>
-       </div>
-     <p>.NET</p>
-       <div class="container">
-        <div class="skills net">92%</div>
-       </div>
-     <p>jQuery</p>
-       <div class="container">
-        <div class="skills jquery">95%</div>
-       </div>
-     <p>Microsoft SQL Server</p>
-       <div class="container">
-        <div class="skills sqlserver">88%</div>
-       </div>
-     <p>Ruby</p>
-       <div class="container">
-        <div class="skills ruby">71%</div>
-       </div>     
-     <p>Swift</p>
-       <div class="container">
-        <div class="skills swift">68%</div>
-       </div>
-     <p>Scala</p>
-       <div class="container">
-        <div class="skills scala">65%</div>
-       </div>
-     <p>Go</p>
-       <div class="container">
-        <div class="skills go">62%</div>
-       </div>
-     <p>Elm</p>
-       <div class="container">
-        <div class="skills elm">73%</div>
-       </div>
-     <p>Rust</p>
-       <div class="container">
-        <div class="skills rust">54%</div>
-       </div>
-   </div>
+    </div>
+      
+      <!--Space between the divs-->
+      <br><br><br>
+    
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      // Load google charts
+      google.charts.load('current', {'packages':['corechart']});
+      // Draw the chart and set the chart values  
+      //First Pie Chart
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Programming Language', 'Percentage'],
+          ['HTML,CSS,JS',     98],
+          ['PHP,SQL,JQuery,Node,Angular',      91],
+          ['Java,Python,C,C++,C#',  89],
+          ['Scratch,Assemblyx32, Assemblyx86,Unity', 85],
+          ['Haskell,Kotlin,R,Scheme',    82],
+          ['Net,TypeScript',     79],
+          ['Powershell',     75],
+          ['Swift',     70],
+          ['Go,Ruby',     65],
+          ['Scala,Rust',     62],
+          ['Golang',    59],
+          ['JVM',55]
+        ]);
+        // Optional; add a title and set the width and height of the chart
+        var options = {
+          title: 'Programming Languages Im Knowledgeable In',
+          is3D: true,
+          colors: ['#5F9EA0', '#4682B4', '#B0C4DE', '#ADD8E6', '#B0E0E6','#87CEFA','#87CEEB','#6495ED','#00BFFF','#1E90FF','#4169E1','#0000FF','#0000CD']
+        };
+        // Display the chart inside the <div> element with id="piechart"
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+      // Draw the chart and set the chart values  
+      //Second Pie Chart
+      google.charts.setOnLoadCallback(drawChart2);
+      function drawChart2() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Programming Language', 'Percentage'],
+          ['Adaptablity',     95],
+          ['Communication',      89],
+          ['Analytics',  90],
+          ['Project Management', 80],
+          ['Technical Writing',    85]
+        ]);
+        // Optional; add a title and set the width and height of the chart
+        var options = {
+          title: 'Skills',
+          is3D: true,
+          colors: ['#E6E6FA', '#D8BFD8', '#DDA0DD', '#DA70D6', '#EE82EE']
+        };
+        // Display the chart inside the <div> element with id="piechart"
+        var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    <!--Calls into the script above for the pie chart-->
+    <div class="row">
+        <div class="block_for_pieChart">
+    <div id="piechart"></div></div>
+        <div class="block_for_pieChart">
+    <div id="piechart2"></div>
+        </div>
+    </div>
+    
+     <!--Space between the divs-->
+      <br><br><br>
+    <!--Third Block-->
   <div class="row">
-   <div class="leftcolumn">
-    <div class="block2">
-        <p><h3>20+</h3>Projects<p>
-    </div>
+    <div class="blocks_under_pieCharts">
+        <h3>20+</h3><p>Projects<p>
    </div>
-   <div class="centercolumn">
-    <div class="block2">
-      <p><h3>25+</h3>Languages<p>
+    <div class="blocks_under_pieCharts">
+        <h3>25+</h3><p>Languages<p>
     </div>
-   </div>      
-   <div class="rightcolumn">
-    <div class="block2">
-      <p><h3>100%</h3>Able to learn new languages<p>
-    </div>
+    <div class="blocks_under_pieCharts">
+      <h3>100%</h3><p>Able to learn new languages<p>
    </div>
   </div>
-     <!--Tech3.jpg It's kind of like a fancy divider-->
+    
+     <!--Space between the divs-->
+      <br><br><br>
+      
+     <!--Image-->
      <div class="img2">
      </div>
-      <hr style="height:5px;border-width:0;color:black;background-color:black;width:75%">
-     <!--Third Block-->
+     
+      <!--Space between the divs-->
+      <br><br><br>
+      
      <div class="block" id="portfolio">
      <h2>Portfolio</h2>
        <p class="center"><em>Below is some of my past and current work.</em></p>
      </div>
-     
+      
+      <!--Space between the divs-->
+      <br><br><br>
+  
 <div class="row">
-  <div class="leftColumn">
-  <div class="card2">
+  <div class="column_for_portfolio_section">
   <a href="https://codepen.io/elsieu/full/VwvBLoZ">
   <img src="image/spheres.png" alt="Spheres in space" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>Floating Spheres in space</b></h4> 
     <p>It's a looped animation of wooden spheres floating through space</p>
     <p>Languages used: HTML, JAVASCRIPT, CSS</p>
   </div>
   </div>
-  <div class="card2">
+  <div class="column_for_portfolio_section">
   <a href="https://codepen.io/elsieu/full/BaoVZWw">   
   <img src="image/SimpleGame.png" alt="Simple Platform game" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>A simple game</b></h4> 
     <p>A platformer game that has lives, scores, enemies, jumping, and climbing</p> 
     <p>Languages used: HTML, JAVASCRIPT, CSS</p>
   </div>
-  </div>
-  <div class="card2">
+  </div>   
+  <div class="column_for_portfolio_section">
   <a href="https://codepen.io/elsieu/full/qBOOJGQ">
       <img src="image/PinkBall.png" alt="Pink Ball" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>Pink Ball</b></h4> 
     <p>A pink ball that has a speckle of light in the corner. The ball can be moved around which shows the contrast between shadows and light.</p>  
     <p>Languages used: HTML, JAVASCRIPT, CSS</p>
   </div>
   </div>
-   </div>
-    <div class="leftColumn2">
-  <div class="card2">
+</div>
+      
+     <!--Space between the divs-->
+      <br><br><br>
+
+<div class="row">
+  <div class="column_for_portfolio_section">
   <a href="https://shadowanomaly.github.io/Website3610/Lab5.html">
   <img src="image/code2.png" alt="Image" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>Sample resume website</b></h4> 
     <p>Sample resume website for an anime character.</p>
     <p>Languages used: HTML, JAVASCRIPT, CSS</p>
   </div>
   </div>
-  <div class="card2">
+  <div class="column_for_portfolio_section">
   <a href="https://cisc3650groupproject.github.io/website/">
   <img src="image/ArtWebsite.png" alt="Art Website" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>Group Art Website Project</b></h4> 
     <p>An art website for my university</p>
     <p>Languages used: HTML, JAVASCRIPT, CSS</p>
   </div>
   </div>
-  <div class="card2">
+  <div class="column_for_portfolio_section">
   <a href="https://shadowanomaly.github.io/DinosaurMuseum/">
   <img src="image/DinoMuseum.png" alt="Dino museum" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>Dinosaur Museum</b></h4> 
     <p>A kiosk type website for a sample dinosaur museum</p> 
     <p>Languages used: HTML, JAVASCRIPT, CSS</p>
   </div>
   </div>
-    </div>  
-  <div class="rightColumn">
-  <div class="card2">
+</div>
+      
+    <!--Space between the divs-->
+      <br><br><br>
+     
+<div class="row">      
+  <div class="column_for_portfolio_section">
   <a href="https://elsieu97.github.io/Fingerprinting-audio-game/">
   <img src="image/SoundGame.png" alt="Sound Game" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>Sound Game</b></h4> 
     <p>It plays two sounds at the same time. The user types in an answer and it will tell the user if they are correct. The answers will be saved in a seperate server to later be analyzed to see which sounds can be heard compared to others.</p>  
     <p>Languages used: HTML, JAVASCRIPT, CSS</p>
   </div>
   </div>
-  <div class="card2">
+  <div class="column_for_portfolio_section">
   <a href="https://github.com/elsieu9700/TermFrequency">
   <img src="image/shellcode.png" alt="shell code" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>Multi Threading</b></h4> 
     <p>Computing Term Frequency for Large Text Files on Multicore Systems.</p>
     <p>Languages used: JAVA, SHELL</p>
   </div>
   </div>
-  <div class="card2">
+  <div class="column_for_portfolio_section">
     <a href="https://github.com/elsieu9700/ProcessInformation">
     <img src="image/shellcode2.PNG" alt="shell code" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>A Shell Script to Query Process Information</b></h4> 
     <p>A bash shell script to query process information from the
     /proc file system.</p>
@@ -300,78 +295,104 @@
   </div>
   </div>
   </div>
-  <div class="rightColumn2">
-  <div class="card2">
+      
+     <!--Space between the divs-->
+      <br><br><br>
+  
+      <div class="row">
+  <div class="column_for_portfolio_section">
   <a href="https://github.com/elsieu9700/Parcheesi">
   <img src="image/parcheesi.jpg" alt="Parcheesi" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>Parcheesi Game</b></h4> 
     <p>Parcheesi game that allows 4 players</p> 
     <p>Languages used: PYTHON</p>
   </div>
   </div>
-  <div class="card2">
+  <div class="column_for_portfolio_section">
   <a href="https://github.com/elsieu9700/Word_Stack_App">
   <img src="image/WordStack.png" alt="Word Stack App" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>Word Stack App</b></h4> 
     <p>A word stack app</p>
     <p>Languages used: JAVA</p>
   </div>
   </div>
-  <div class="card2">
+  <div class="column_for_portfolio_section">
   <a href="https://github.com/elsieu9700/Hotel_Management_System">
   <img src="image/hotel_manage.png" alt="Hotel Management System" style="width:100%" class="imgCard"></a>
-  <div class="container2">
+  <div class="container_for_portfolio_section">
     <h4><b>Hotel Management System</b></h4> 
     <p>A system to store info about a customer as well as their billing info.</p>
     <p>Languages used: C++</p>
   </div>
   </div>
   </div>
-</div>
+      
+      <!--Space between the divs-->
+      <br><br><br>
+      
      <!--More button-->
      <div>
       <a href="morePage.html">
-      <img src="image/moreButton.jpg" alt="More Button image" width="100" height="100" class="centerImage">
+      <button class="more_button"><span>More </span></button>
       </a>
      </div>
-     <!--The Divider-->
-     <hr style="height:5px;border-width:0;color:black;background-color:black;width:75%">
+     
+      <!--Space between the divs-->
+      <br><br><br>
+     
      <!--The Image-->
-     <div class="img4">
-     </div>
-     <!--The Divider-->
-     <hr style="height:5px;border-width:0;color:black;background-color:black;width:75%">
+     <div class="img3"></div>
+     
+     <!--Space between the divs-->
+      <br><br><br>
+      
      <!--Fourth Block-->
      <div class="block" id="resume">
+         <br>
      <h2>Resume</h2>
        <p class="center"><em>Download resume below:</em></p>
        <p class="center">
-           Click on the resume logo to download the .docx version of the resume:
+           Click on download to download the .docx version of the resume:
        </p>
 
        <a href="resume/Elsie_Urena_Resume.docx" download>
-          <img src="image/resumeButton.jpg" alt="Resume" width="100" height="50" class="centerImage">
+          <button class="btn"><i class="fa fa-download"></i> Download</button>
        </a>
        <p class="center">
-           Click on the resume logo to download the .pdf version of the resume:
+           Click on download to download the .pdf version of the resume:
        </p>
 
        <a href="resume/Elsie_Urena_Resume_PDF.pdf" download>
-          <img src="image/resumeButton.jpg" alt="Resume" width="100" height="50" class="centerImage">
+          <button class="btn"><i class="fa fa-download"></i> Download</button>
        </a>
+       <br>
      </div>
-     <!--The Divider-->
-     <hr style="height:5px;border-width:0;color:black;background-color:black;width:75%">
+     
+     <!--Space between the divs-->
+      <br><br><br>
+      
           <!--First Block-->
      <div class="block" id="contact">
+         <br>
      <h2>Contact</h2>
        <p class="center"><em>Hi there!</em></p>
        <p class="center">
-       <h4>Email:</h4>elsie.urena.business@gmail.com
-       <h4>Phone #:</h4>(718)-986-9593
-       </p>
+       Email:elsie.urena.business@gmail.com<br>
+       Phone #:(718)-986-9593</p>
+       <br>
      </div>
+          
+    <!--Space between the divs-->
+      <br><br><br>
+      
+      <div>
+          <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn"><i class="fa fa-home"></i> Home</button>
+      </div>
+      
+    <!--Space between the divs-->
+      <br><br><br>
+          
     </body>
 </html>
